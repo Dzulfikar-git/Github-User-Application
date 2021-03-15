@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConsumerApp</string>
+
+    <!-- String for items in recycler view github users -->
+    <string name="rv_item_imgdesc">Foto Pengguna</string>
+    <string name="rv_item_username">Nama Pengguna</string>
+    <string name="rv_item_empty">Pengguna Favorit Kosong</string>
+</resources>

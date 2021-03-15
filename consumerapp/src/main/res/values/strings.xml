@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConsumerApp</string>
+
+    <!-- String for items in recycler view github users -->
+    <string name="rv_item_imgdesc">User Avatar</string>
+    <string name="rv_item_username">User Name</string>
+    <string name="rv_item_empty">Empty Favorite Users</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dzul.apps.subs3aplikasigithubuserdzulfikar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="com.dzul.apps.subs3aplikasigithubuserdzulfikar.favoriteUsers.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.dzul.apps.subs3aplikasigithubuserdzulfikar.favoriteUsers.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <application
+        android:name=".utility.FavoriteApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".provider.FavoriteProvider"
+            android:authorities="com.dzul.apps.subs3aplikasigithubuserdzulfikar.favoriteUsers"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.dzul.apps.subs3aplikasigithubuserdzulfikar.favoriteUsers.READ_DATABASE"
+            android:writePermission="com.dzul.apps.subs3aplikasigithubuserdzulfikar.favoriteUsers.WRITE_DATABASE" />
+
+        <activity
+            android:name=".FavoriteActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <receiver
+            android:name=".receiver.ReminderReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

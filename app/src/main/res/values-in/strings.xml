@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Aplikasi Pengguna Github</string>
+
+    <!-- String for items in recycler view github users -->
+    <string name="rv_item_imgdesc">Foto Pengguna</string>
+    <string name="rv_item_username">Nama Pengguna</string>
+
+    <!--  String for items in option menu-->
+    <string name="option_searchhint">Cari Nama Pengguna</string>
+    <string name="option_changelang">Ubah Bahasa</string>
+    <string name="option_setting">Pengaturan</string>
+
+    <!--  String for items in Main Activity-->
+    <string name="item_searchresult">Pengguna Tidak Ditemukan</string>
+
+    <!--  String for items in Detail Activity -->
+    <string name="detail_item_name">Nama</string>
+    <string name="detail_item_username">Nama Akun</string>
+    <string name="detail_item_useremail"> Email@Email.com</string>
+    <string name="detail_item_userlocation">Kota, Negara</string>
+    <string name="detail_item_usercompany">PT Company LTE</string>
+    <string name="detail_item_nullname">Nama Belum Diatur</string>
+    <string name="detail_name_nullemail">Email Belum Diatur</string>
+    <string name="detail_name_nulllocation">Lokasi Belum Diatur</string>
+    <string name="detail_name_nullcompany">Perusahaan Belum Diatur</string>
+    <string name="detail_favorite_yes">Ditambahkan ke Daftar Favorit</string>
+    <string name="detail_favorite_no">Dihapus dari Daftar Favorit</string>
+
+    <!-- String for Follower Fragment -->
+    <string name="follower_title">Pengikut</string>
+
+    <!--  String for Following Fragment  -->
+    <string name="following_title">Mengikuti</string>
+
+    <!--  String for Settings Activity  -->
+    <string name="settings_txt_reminder">Pengingat Harian</string>
+    <string name="settings_txt_alarm">Waktu Belum Ditentukan</string>
+    <string name="settings_btn_enable">Aktifkan Pengingat Harian</string>
+    <string name="settings_btn_disable">Matikan Pengingat Harian</string>
+
+    <!--  String for Notification-->
+    <string name="notif_title">Pengingat Harian</string>
+    <string name="notif_message">Ini Pengingat Harian untuk membuka Aplikasi Pengguna Github</string>
+
+    <!-- String for Favorite Activity -->
+    <string name="favorite_title">Daftar Favorit</string>
+    <string name="option_favorite_hint">Favorit</string>
+</resources>
